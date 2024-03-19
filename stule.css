@@ -1,0 +1,44 @@
+body,html{
+    max-height:auto;/* dose not matter if its max or min in this case */
+    margin: 0
+}
+
+
+
+
+#placement, #palce, #new, #old, #now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+}
+
+
+#login-for, #login, #new1, #old1, #now1 {
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 10px;
+    min-width:800px;
+}
+
+
+
+table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto; 
+}
+
+ul {
+    margin: 0; /* Remove default margin on unordered lists */
+    padding-left: 0; /* Remove default padding on unordered lists */
+    list-style-position: inside; /* Place bullet points inside list items */
+}
+
+
+
+
+a:hover {
+color: red;
+}
